@@ -7,19 +7,19 @@ const Navbar = () => {
       <Link href="/">AV0CAD0</Link>
       <ul className={styles.list}>
         <li className={styles.listItem}>
-          <Link href="products/design">DESIGN</Link>
+          <Link href="/products/design">DESIGN</Link>
         </li>
         <li className={styles.listItem}>
-          <Link href="products/development">DEVELOPMENT</Link>
+          <Link href="/products/development">DEVELOPMENT</Link>
         </li>
         <li className={styles.listItem}>
-          <Link href="products/production">PRODUCTION</Link>
+          <Link href="/products/production">PRODUCTION</Link>
         </li>
         <li className={styles.listItem}>
-          <Link href="products/photography">PHOTOGRAPHY</Link>
+          <Link href="/products/photography">PHOTOGRAPHY</Link>
         </li>
         <li className={styles.listItem}>
-          <Link href="products/contact">CONTACT</Link>
+          <Link href="/products/contact">CONTACT</Link>
         </li>
       </ul>
     </div>

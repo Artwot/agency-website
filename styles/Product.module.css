@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  padding: 50px;
+}
+
+.cardLg {
+  flex: 2;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cardSm {
+  flex: 1;
+}
+
+.imgContainer {
+  width: 30%;
+  margin: 5px;
+  background-color: tomato;
+}
+
+.imgContainer:nth-child(3) {
+  border-top-right-radius: 50%;
+  overflow: hidden;
+}
+
+.title {
+  font-size: 60px;
+}
+
+.button {
+  padding: 15px;
+  border: none;
+  background-color: green;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-top: 50px;
+  cursor: pointer;
+}
