@@ -1,6 +1,7 @@
 .container {
   display: flex;
   padding: 50px;
+  height: 80vh;
 }
 
 .cardLg {
@@ -17,6 +18,7 @@
   width: 30%;
   margin: 5px;
   background-color: tomato;
+  position: relative;
 }
 
 .imgContainer:nth-child(3) {
@@ -37,4 +39,41 @@
   border-radius: 10px;
   margin-top: 50px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    flex-direction: column-reverse;
+    height: auto;
+  }
+
+  .title {
+    font-size: 50px;
+  }
+
+  .cardSm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .imgContainer {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  .button {
+    margin: 20px 0;
+  }
+
+  .cardLg::before {
+    content: "Projects";
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
 }

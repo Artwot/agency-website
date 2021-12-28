@@ -12,10 +12,8 @@ const Product = ({ product }) => {
             <Image
               src={img.url}
               alt="Product"
-              width="100%"
-              height="100%"
               objectFit="cover"
-              layout="responsive"
+              layout="fill"
             />
           </div>
         ))}

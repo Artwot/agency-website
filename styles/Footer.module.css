@@ -42,3 +42,22 @@
   /* font-size: 14px; */
   margin-bottom: 20px;
 }
+
+@media screen and (max-width: 480px) {
+  .container {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .title,
+  .linkTitle {
+    font-size: 30px;
+  }
+
+  .cardItem {
+    text-align: center;
+    font-size: 15px;
+  }
+
+  
+}
